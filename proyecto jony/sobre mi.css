@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #73c8a9, #dee1b6, #e1b866, #bd5532, #373b44);
+    color: #141325; /* Color de texto modificado */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img {
+    width: 150px; /* Aumentamos el tamaño de la imagen */
+    height: 150px; /* Aumentamos el tamaño de la imagen */
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.name h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    margin: 0;
+}
+
+.name p {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Cambiamos el color de fondo en hover */
+    text-decoration: none;
+}
+
+/* Añade estilos para la barra separadora */
+.separator {
+    border: none;
+    height: 2px; /* Altura de la barra separadora */
+    background-color: rgba(255, 255, 255, 0.3); /* Color de la barra separadora */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-family: Arial, sans-serif; /* Cambiamos la tipografía */
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.instagram-banner {
+    width: 50px; /* Tamaño de la imagen */
+    height: 50px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Hacer la imagen redondeada */
+    margin-top: 10px; /* Espaciado superior */
+    filter: grayscale(0%) sepia(100%) hue-rotate(50deg) saturate(100%) brightness(70%) contrast(100%); /* Aplicamos filtro para el degradado */
+}
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-family: 'Indie Flower', cursive; /* Cambiamos la tipografía */
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+footer p a {
+    color: #fff; /* Color del enlace */
+    text-decoration: underline; /* Subrayado del enlace */
+    margin-left: 5px; /* Espacio entre el texto y el enlace */
+}
+/* Añade estilos para la barra separadora del footer */
+.footer-separator {
+    border: none;
+    height: 2px; /* Altura de la barra separadora */
+    background-color: rgba(255, 255, 255, 0.3); /* Color de la barra separadora */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+/* Estilos para el texto "Mi historia" */
+.mi-historia {
+    text-align: center; /* Centrar el texto */
+    font-family: 'Roboto', sans-serif; /* Fuente creativa */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+.mi-historia h2 {
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.mi-historia p {
+    font-size: 16px; /* Tamaño del texto */
+    margin-bottom: 10px; /* Espacio inferior */
+    line-height: 1.6; /* Altura de línea */
+}
+/* Estilos para el texto de la historia */
+.history-text {
+    font-family: 'Caveat', cursive; /* Cambiar la fuente a Caveat */
+    font-weight: bold; /* Poner en negrita */
+    text-align: center; /* Centrar el texto */
+}
+
+.history-text em {
+    font-style: italic; /* Poner en cursiva */
+}
+
